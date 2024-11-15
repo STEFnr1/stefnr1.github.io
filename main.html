@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site-ul lui Ștefan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Ștefan</div>
+            <ul class="nav-links">
+                <li><a href="#home">Acasă</a></li>
+                <li><a href="#about">Despre</a></li>
+                <li><a href="#portfolio">Portofoliu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Bine ai venit!</h1>
+        <p>Exploră lumea lui Ștefan. Idei, proiecte și inspirație.</p>
+        <a href="#about" class="btn">Află mai multe</a>
+    </section>
+
+    <section id="about" class="about">
+        <h2>Despre mine</h2>
+        <p>Sunt Ștefan, pasionat de tehnologie și inovație. Creez experiențe digitale captivante și sunt mereu în căutarea celor mai noi tehnologii.</p>
+        <div class="image-wrapper">
+            <img src="profile.jpg" alt="Ștefan" class="profile-pic">
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <h2>Portofoliu</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="project1.jpg" alt="Proiect 1">
+                <p>Proiect 1 - Aplicație Web</p>
+            </div>
+            <div class="gallery-item">
+                <img src="project2.jpg" alt="Proiect 2">
+                <p>Proiect 2 - Design UI/UX</p>
+            </div>
+            <div class="gallery-item">
+                <img src="project3.jpg" alt="Proiect 3">
+                <p>Proiect 3 - Automatizare</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="name">Nume:</label>
+                <input type="text" id="name" name="name" placeholder="Numele tău" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Adresa de email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mesaj:</label>
+                <textarea id="message" name="message" placeholder="Scrie mesajul tău" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn">Trimite</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Ștefan. Toate drepturile rezervate.</p>
+    </footer>
+</body>
+</html>
